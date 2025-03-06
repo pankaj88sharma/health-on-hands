@@ -138,18 +138,11 @@ class Contact extends React.Component {
               </MDBAnimation>
             </MDBCol>
             <MDBCol lg="4">
-              <MDBAnimation reveal type="slideInLeft" delay="" duration="2s">
-                <MDBDropdown>
-                  <MDBDropdownToggle size="lg" className="cyan-text z-depth-0 p-0" color="">
-                    <MDBIcon size="3x" icon="phone" />
-                  </MDBDropdownToggle>
-                  <MDBDropdownMenu className="unique-color-dark p-0">
-                    <MDBDropdownItem href="tel:+919540899889" className="text-white">
-                      < MDBIcon className="mr-2" icon="mobile-alt" />+ 91 9540 899 889
-                  </MDBDropdownItem>
-                  </MDBDropdownMenu>
-                </MDBDropdown>
-                <p className="font-weight-500 mb-0">+ 91 9540 899 889</p>
+            <MDBAnimation reveal type="slideInLeft" delay="" duration="2s">
+                <a href="https://wa.link/u2246g" className="cyan-text" target="_blank" rel="noopener noreferrer">
+                  <MDBIcon size="3x" icon="phone" />
+                </a>
+                <p className="font-weight-500 mb-0">+91 9540 899 889</p>
               </MDBAnimation>
             </MDBCol>
             <MDBCol lg="4">
