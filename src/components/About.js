@@ -8,7 +8,7 @@ export default class About extends React.Component {
   }
 
   componentDidMount() {
-    document.title = "VentureSoft Technologies | About";
+    document.title = "Health On Hands | About";
   }
 
   render() {
@@ -31,40 +31,68 @@ export default class About extends React.Component {
           <MDBRow>
             <MDBCol className="mt-5">
               <MDBAnimation reveal type="" delay="" duration="2s">
-                <p className="h4-responsive font-weight-500">Who We Are</p>
+                <p className="h4-responsive font-weight-500"></p>
               </MDBAnimation>
               <MDBAnimation reveal type="" delay="" duration="2s">
                 <p className="font-size-1-1rem">
-                VentureSoft Technologies is a software solutions company providing project development and staff augmentation services to companies in various industries. We are a leading IT firm dedicated to delivering innovative and tailored solutions to empower businesses in the digital era. With a commitment to excellence, we blend technology expertise with a client-centric approach to provide unparalleled services. At Venturesoft Technologies, we stand at the intersection of technology and innovation, driven by a passion to redefine the digital landscape. Our journey began with a vision to empower businesses through cutting-edge IT solutions, and today, we proudly continue that legacy.
-            </p>
+                At Hands-On Health, we are dedicated to helping you live a pain-free, active life. Our clinic is built on the foundation of compassionate care, expert knowledge, and a commitment to improving the well-being of every individual who walks through our doors.            </p>
               </MDBAnimation>
               <br/>
               <br/>
               <MDBAnimation reveal type="" delay="" duration="2s">
-                <p className="h4-responsive font-weight-500">Our Values</p>
+                <p className="h4-responsive font-weight-500">Our Mission</p>
               </MDBAnimation>
               <MDBAnimation reveal type="" delay="" duration="2s">
                 <p className="font-size-1-1rem">
-                <b>Excellence</b>: We are committed to delivering excellence in every project, ensuring our clients receive top-notch solutions that exceed expectations. <br/>
-                <b>Innovation</b>: Embracing the spirit of innovation, we stay at the forefront of technology trends, providing our clients with solutions that propel them into the future. <br/>
-                <b>Client-Centric Approach</b>: Our clients are at the heart of what we do. We prioritize understanding their unique needs and crafting solutions that drive their success. <br/>
-                <b>Collaboration</b>: We believe in the power of collaboration – within our team and with our clients. Together, we achieve more.
+                Our mission is to empower our patients to take control of their health and achieve their fullest potential through personalized, hands-on physiotherapy treatment. We are committed to providing evidence-based care, combining our deep expertise with a patient-centered approach to deliver lasting results.
                 </p>
               </MDBAnimation>
               <br/>
               <br/>
 
               <MDBAnimation reveal type="" delay="" duration="2s">
-                <p className="h4-responsive font-weight-500">What You Get</p>
+                <p className="h4-responsive font-weight-500">Why Choose Us?</p>
               </MDBAnimation>
               <MDBAnimation reveal type="" delay="" duration="2s">
                 <p className="font-size-1-1rem">
-                <b>Proven Track Record</b>: Explore our portfolio of successful projects that showcase our expertise and commitment to excellence. <br/>
-                <b>Skilled Professionals</b>: Our team consists of experienced professionals who bring a wealth of knowledge and skills to every project. <br/>
-                <b>Client-Focused Approach</b>: We believe in building long-lasting partnerships by putting our clients at the center of our work. <br/>
-                <b>Continuous Innovation</b>: In the ever-evolving world of technology, we stay ahead by embracing innovation and staying updated with the latest trends.
-              </p>
+                  <ul>
+                    <li><b>Personalized Care</b>: We believe that every patient is unique, which is why we create tailored treatment plans to meet your specific needs and goals. </li>
+                    <li><b>Experienced Team</b>: Our team of skilled physiotherapists has years of experience in treating a wide range of conditions, from sports injuries to chronic pain and rehabilitation. </li>
+                    <li><b>Holistic Approach</b>: We take a holistic view of your health, addressing not just the symptoms, but the root causes of pain or mobility issues. </li>
+                    <li><b>State-of-the-Art Facility</b>: Our clinic is equipped with the latest physiotherapy technology, providing you with the most effective treatments available.</li>
+                  </ul>
+                </p>
               </MDBAnimation>
+              <br/>
+              <br/>
+
+              <MDBAnimation reveal type="" delay="" duration="2s">
+                <p className="h4-responsive font-weight-500">Our Team</p>
+              </MDBAnimation>
+              <MDBAnimation reveal type="" delay="" duration="2s">
+                <p className="font-size-1-1rem">
+                Our dedicated team consists of highly trained, licensed physiotherapists who are passionate about helping people regain mobility, alleviate pain, and live healthier lives. With expertise in various therapeutic techniques, our physiotherapists work closely with each patient to ensure their treatment plan is effective and aligned with their personal goals.
+
+              Whether you’re recovering from an injury or managing a long-term condition, our team is here to provide support every step of the way.                </p>
+              </MDBAnimation>
+              <br/>
+              <br/>
+
+              <MDBAnimation reveal type="" delay="" duration="2s">
+                <p className="h4-responsive font-weight-500">Our Values</p>
+              </MDBAnimation>
+              <MDBAnimation reveal type="" delay="" duration="2s">
+                <p className="font-size-1-1rem">
+                  <ul>
+                    <li><b>Integrity</b>: We believe in honest, open communication and maintaining the highest ethical standards in everything we do.</li>
+                    <li><b>Empathy</b>: We listen to your concerns and provide care with compassion, understanding, and respect. </li>
+                    <li><b>Excellence</b>: We are committed to ongoing learning and growth to provide you with the best physiotherapy treatments available. </li>
+                  </ul>
+                </p>
+              </MDBAnimation>
+              <br/>
+              <br/>
+
             </MDBCol>
           </MDBRow>
         </MDBContainer>

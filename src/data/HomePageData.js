@@ -1,20 +1,8 @@
 export const homePageData = [
   {
-    src: 'https://ik.imagekit.io/excellenceclasses/homepage-3_9DUXNYx8hD.jpg' ,
-    heading: ['Discovering', 'Possibilities'],
-    body: 'Empowering people to believe.',
-    animation: ''
-  },
-  {
-    src:  'https://ik.imagekit.io/excellenceclasses/homepage-3_9DUXNYx8hD.jpg',
-    heading: ['On Time', 'Delivery'],
-    body: 'Helping you Succeed.',
-    animation: ''
-  },
-  {
-    src: 'https://ik.imagekit.io/excellenceclasses/homepage-3_9DUXNYx8hD.jpg',
-    heading: ['Spreading', 'Knowledge'],
-    body: 'Strive for Excellence.',
+    src: 'https://ik.imagekit.io/excellenceclasses/HealthOnHands/marc-zeman-uLWW09LLG04-unsplash_9yaV9jSHG.jpg?updatedAt=1741253548288' ,
+    heading: ['Health On Hands'],
+    body: 'Healing through hands-on care.',
     animation: ''
   }
 ];

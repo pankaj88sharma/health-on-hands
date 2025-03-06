@@ -1,27 +1,27 @@
 
 export const coursesData = [
   {
-    name: 'IT Staffing',
-    imgSrc: 'https://ik.imagekit.io/excellenceclasses/Services/kelly-sikkema-377gw1wN0Ic-unsplash_XMq6Jbh_o.jpg'
+    name: 'Manual Therapy',
+    imgSrc: 'https://ik.imagekit.io/excellenceclasses/HealthOnHands/jonathan-borba-lrQPTQs7nQQ-unsplash_Z3lkxYC8uX.jpg?updatedAt=1741272038751'
   },
   {
-    name: 'Web Development',
-    imgSrc: 'https://ik.imagekit.io/excellenceclasses/Subjects/18_6dInDngDr.jpg?updatedAt=1601581881684'
+    name: 'Sports Injury Rehabilitation',
+    imgSrc: 'https://ik.imagekit.io/excellenceclasses/HealthOnHands/jared-rice-NTyBbu66_SI-unsplash_8WUT-PDJB.jpg?updatedAt=1741272038747'
   },
   {
-    name: 'Cloud Solutions',
-    imgSrc: 'https://ik.imagekit.io/excellenceclasses/Subjects/gustas-brazaitis-MF2_-N7Bcp4-unsplash_bbSGPmTTk.jpg?updatedAt=1601581881684'
+    name: 'Post-Surgical Rehabilitation',
+    imgSrc: 'https://ik.imagekit.io/excellenceclasses/HealthOnHands/national-cancer-institute-701-FJcjLAQ-unsplash_ZSmPhPxNw.jpg?updatedAt=1741272038631'
   },
   {
-    name: 'Cybersecurity',
-    imgSrc: 'https://ik.imagekit.io/excellenceclasses/Subjects/5_gqGzvqgKiP.jpg?updatedAt=1601581881684'
+    name: 'Chronic Pain Management',
+    imgSrc: 'https://ik.imagekit.io/excellenceclasses/HealthOnHands/bruno-nascimento-PHIgYUGQPvU-unsplash_vuSF4r0Ldq.jpg?updatedAt=1741272038488'
   },
   {
-    name: 'Custom Software Development',
-    imgSrc: 'https://ik.imagekit.io/excellenceclasses/Subjects/17_gDaCsZkUwn.jpg?updatedAt=1601581881684'
+    name: 'Dry Needling',
+    imgSrc: 'https://ik.imagekit.io/excellenceclasses/HealthOnHands/hush-naidoo-jade-photography-yo01Z-9HQAw-unsplash_-ReXN2YSS9.jpg?updatedAt=1741272038501'
   },
   {
-    name: 'IT Consulting',
-    imgSrc: 'https://ik.imagekit.io/excellenceclasses/Services/jason-goodman-Oalh2MojUuk-unsplash_Tph9oFfWI.jpg'
+    name: 'Pediatric Physiotherapy',
+    imgSrc: 'https://ik.imagekit.io/excellenceclasses/HealthOnHands/sincerely-media-inoZpsBQRqk-unsplash_ViI3_I7HeZ.jpg?updatedAt=1741249183072'
   }
 ];

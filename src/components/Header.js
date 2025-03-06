@@ -33,8 +33,8 @@ class Header extends React.Component {
     const currentPath = window.location.pathname;
     const menuItems = this.props.menuLinksData.map((menu, index) =>
       <MDBAnimation delay="0.25s" key={index} type={this.hamburgerCheckbox && this.hamburgerCheckbox.checked ? '' : ''} duration={0.5 + (0.25 * index) + 's'}>
-        <MDBNavItem className={currentPath === menu.path ? '' : ''}>
-          <MDBNavLink style={{color: 'black'}} disabled={false} onClick={currentPath === menu.path ? null : this.handleLinkClick} to={menu.path}>{menu.display.toUpperCase()}</MDBNavLink>
+        <MDBNavItem style={currentPath === menu.path ? {textDecoration: 'underline'} : {}}>
+          <MDBNavLink style={{color: 'black', fontSize: '20px'}} disabled={false} onClick={currentPath === menu.path ? null : this.handleLinkClick} to={menu.path}>{menu.display.toUpperCase()}</MDBNavLink>
         </MDBNavItem>
       </MDBAnimation>
     );
@@ -44,7 +44,7 @@ class Header extends React.Component {
         <MDBContainer fluid>
           <MDBAnimation type="" duration="1s">
             <MDBNavbarBrand className={currentPath === '/' ? 'pointer-events-none' : ''} onClick={currentPath === '/' ? null : this.handleLinkClick} href="/">
-            <img alt='logo' style={{ width: 200, height: 70 }} src={String(this.logo)} />
+            <img alt='logo' style={{ width: 80, height: 70 }} src={String(this.logo)} /> <span style={{color: 'black', fontWeight: 'bold'}}> HEALTH ON HANDS </span>
             </MDBNavbarBrand>
           </MDBAnimation>
           <MDBAnimation type="" duration="1s">

@@ -9,7 +9,7 @@ export default class Courses extends React.Component {
   }
 
   componentDidMount() {
-    document.title = "VentureSoft Technologies | Services";
+    document.title = "Health On Hands | Services";
   }
 
 
@@ -35,7 +35,7 @@ export default class Courses extends React.Component {
       <React.Fragment>
         <MDBContainer fluid className="pl-0 pr-0">
           <MDBAnimation type="" duration="">
-            <MDBView src='https://ik.imagekit.io/excellenceclasses/subjects-bg_0DqneNjkC2.jpg' className="h-40vh">
+            <MDBView src='https://ik.imagekit.io/excellenceclasses/HealthOnHands/klara-kulikova-6MxPH_N4huE-unsplash_WImbdJKca1.jpg?updatedAt=1741253459919' className="h-40vh">
               <MDBMask overlay="black-strong" className="d-flex justify-content-center text-white text-center align-items-end">
                 <MDBAnimation type="" duration="1s" delay="0.3s">
                   <div className="page-bg">

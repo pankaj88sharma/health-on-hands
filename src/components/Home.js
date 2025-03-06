@@ -13,7 +13,7 @@ export default class Home extends React.Component {
   }
 
   componentDidMount() {
-    document.title = "VentureSoft Technologies | Home";
+    document.title = "Health On Hands | Home";
   }
 
   render() {
@@ -27,7 +27,8 @@ export default class Home extends React.Component {
         <section className="text-center pb-5 my-5">
             <MDBAnimation reveal type="" duration="1.5s">
               <h4 className="my-5">
-              VentureSoft Technologies offers a comprehensive range of consulting services from custom software development to IT staffing and training.
+              At Hands-On Health, we’re dedicated to helping you live a pain-free, active life. Whether you're recovering from an injury, managing chronic pain, or improving your mobility, our team of experienced physiotherapists is here to support your journey to better health.
+With a personalized, hands-on approach, we provide a range of services tailored to your unique needs. Our goal is to help you achieve lasting relief, improve your movement, and regain your confidence in everyday activities.
         </h4>
             </MDBAnimation>
            </section>
@@ -41,29 +42,26 @@ export default class Home extends React.Component {
             <MDBRow>
               <MDBCol md="4">
                 <MDBAnimation reveal type="" duration="2s">
-                  <MDBIcon icon="chalkboard-teacher" size="4x" className="red-text" />
-                  <h4 className="font-weight-bold my-4">High Quality Processes</h4>
+                  <MDBIcon icon="medkit" size="4x" className="red-text" />
+                  <h4 className="font-weight-bold my-4">Your Health, Our Priority</h4>
                   <p className="mb-md-0 mb-5 font-size-1-25rem">
-                  We have developed repeatable, effective software development processes that ensure high quality of service and successful delivery to our global clients. All phases of work in our product development cycle are well documented, well reviewed to ensure we are effective and efficient in every project.
-            </p>
+                  At Hands-On Health, we believe in putting you first. Our approach is tailored to your individual needs, ensuring that every treatment plan is personalized to help you achieve your health goals. Whether you're recovering from an injury or looking to manage a chronic condition, we're here to help you feel your best every step of the way.            </p>
                 </MDBAnimation>
               </MDBCol>
               <MDBCol md="4">
                 <MDBAnimation reveal type="" duration="2s">
-                  <MDBIcon icon="graduation-cap" size="4x" className="cyan-text" />
-                  <h4 className="font-weight-bold my-4">Cost-effective Solutions</h4>
+                  <MDBIcon icon="dumbbell" size="4x" className="cyan-text" />
+                  <h4 className="font-weight-bold my-4">Tailored Treatment Plans</h4>
                   <p className="mb-md-0 mb-5 font-size-1-25rem">
-                  Our global deliver model allows us to offer each client a custom-fit solution combining our onshore and offshore resources to give our clients the highest value solutions available. With three offices in the US and three offices in India we are well suited to address our client’s needs in a cost-effective manner.
-            </p>
+                  We offer a range of physiotherapy services to help you regain mobility and alleviate pain. Our treatments include manual therapy, exercise programs, posture correction, and injury rehabilitation. During your first visit, we’ll conduct a thorough assessment to create a treatment plan designed specifically for you. No jargon—just a clear path to healing.            </p>
                 </MDBAnimation>
               </MDBCol>
               <MDBCol md="4">
                 <MDBAnimation reveal type="" duration="2s">
-                  <MDBIcon far icon="comments" size="4x" className="orange-text" />
-                  <h4 className="font-weight-bold my-4">Confidentiality</h4>
+                  <MDBIcon icon="user-nurse" size="4x" className="orange-text" />
+                  <h4 className="font-weight-bold my-4">Expert Care, Proven Results</h4>
                   <p className="mb-md-0 mb-5 font-size-1-25rem">
-                  We guarantee a high degree of confidentiality and security in every project. All clients’ information remains strictly confidential. VentureSoft will never sell or disclose any client information under any unauthorized circumstances.
-            </p>
+                  Our team of licensed physiotherapists are highly trained and experienced in treating a variety of conditions. We use the latest evidence-based techniques to provide you with the most effective treatments. Whether you are recovering from a sports injury, dealing with back pain, or managing a long-term condition, our expert team is committed to supporting you throughout your recovery process.            </p>
                 </MDBAnimation>
               </MDBCol>
             </MDBRow>
