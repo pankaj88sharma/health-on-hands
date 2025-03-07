@@ -143,6 +143,7 @@ class Contact extends React.Component {
                   <MDBIcon size="3x" icon="phone" />
                 </a>
                 <p className="font-weight-500 mb-0">+91 9540 899 889</p>
+                <br/>
               </MDBAnimation>
             </MDBCol>
             <MDBCol lg="4">

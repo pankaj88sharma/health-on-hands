@@ -6,7 +6,7 @@ export const coursesData = [
   },
   {
     name: 'Sports Injury Rehabilitation',
-    imgSrc: 'https://ik.imagekit.io/excellenceclasses/HealthOnHands/jared-rice-NTyBbu66_SI-unsplash_8WUT-PDJB.jpg?updatedAt=1741272038747'
+    imgSrc: 'https://ik.imagekit.io/excellenceclasses/HealthOnHands/kaylee-garrett-GaprWyIw66o-unsplash_XPrAz-aBh8.jpg?updatedAt=1741342898101'
   },
   {
     name: 'Post-Surgical Rehabilitation',
